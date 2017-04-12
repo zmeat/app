@@ -1,10 +1,10 @@
 package routers
 
 import (
-	"app/controllers"
 	"github.com/astaxie/beego"
+	"github.com/zmeat/app/controllers"
 )
 
 func init() {
-    beego.Router("/", &controllers.MainController{})
+	beego.Router("/", &controllers.MainController{})
 }
